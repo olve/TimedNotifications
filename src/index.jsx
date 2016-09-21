@@ -6,7 +6,7 @@ import registerServiceWorker from 'serviceworker!./serviceworker.js'
 
 import './styles.css'
 
-registerServiceWorker({scope: '/'}).catch(error => console.log)
+registerServiceWorker({scope: '/timer/'}).catch(error => console.log)
 
 const app = <App />
 const mount = document.getElementById('app')
